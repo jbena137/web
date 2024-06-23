@@ -1,74 +1,40 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
-
-.button-container {
-    margin-bottom: 20px;
-}
-
-.container {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    max-width: 400px;
-}
-
-h1 {
-    color: #ff4500;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-p {
-    color: #333;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-button {
-  padding: 0.1em 0.25em;
-  width: 13em;
-  height: 4.2em;
-  background-color: #212121;
-  border: 0.08em solid #fff;
-  border-radius: 0.3em;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-button span {
-  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000; /* Color de fondo suave */
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0.4em;
-  width: 8.25em;
-  height: 2.5em;
-  background-color: #212121;
-  border-radius: 0.2em;
-  font-size: 1.5em;
-  color: #fff;
-  border: 0.08em solid #fff;
-  box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  height: 140vh;
 }
 
-button span:hover {
-  transition: all 0.5s;
-  transform: translate(0, 0.4em);
-  box-shadow: 0 0 0 0 #fff;
+.container {
+  text-align: left; /* Alineación del texto a la izquierda para una lectura más fácil */
+  background-color: #ffffff; /* Fondo blanco */
+  padding: 30px; /* Espaciado interior */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 90%; /* Ancho del contenedor */
+  max-width: 600px; /* Ancho máximo del contenedor */
 }
 
-button span:not(hover) {
-  transition: all 1s;
+h1 {
+  color: #000000; /* Color de título naranja */
+  font-size: 2.5em; /* Tamaño de fuente grande */
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+p {
+  color: #333; /* Color de texto oscuro */
+  font-size: 1.2em; /* Tamaño de fuente mediano */
+  margin-bottom: 15px; /* Espacio inferior */
+}
+
+.inserted-image {
+  max-width: 100%; /* Imagen con ancho máximo del contenedor */
+  height: auto; /* Altura automática para mantener la proporción */
+  margin-top: 20px; /* Espacio superior */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
